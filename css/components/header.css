@@ -1,0 +1,47 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    height: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+.header__branding {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.header__hamburguer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    padding: 0.4rem;
+    width: 1.1rem;
+    border-radius: 10px;
+}
+
+.header__hamburguer img {
+    width: 1.3rem;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header__navigation > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    padding: 0.4rem;
+    width: 1.3rem;
+    border-radius: 10px;
+}

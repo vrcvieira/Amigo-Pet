@@ -1,0 +1,14 @@
+.footer__nav__container {
+    position: fixed;
+    background-color: var(--white);
+    height: 3.5rem;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid var(--border);
+}
+
+.footer__nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

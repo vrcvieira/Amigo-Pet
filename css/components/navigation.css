@@ -1,0 +1,23 @@
+.navigation__container {
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.navigation__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: var(--white);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.navigation__card span {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
